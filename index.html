@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>twimbit.com</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+</head>
+<style>
+
+*{
+        margin: 0px;
+        padding: 0px
+       
+}
+
+body{
+    overflow-x:hidden;
+    
+}
+
+#left{
+    margin-left: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 715px;
+    background-color:#FEFDFD;
+    object-fit :contain;
+}
+
+.img3{
+
+
+  background-image: url("Bg.png") ; /* The image used */
+  height: 500px; /* You must set a specified height */
+  position: relative;/* Center the image */
+  background-repeat:  no-repeat; /* Do not repeat the image */
+  background-size: cover;   
+  
+}
+
+
+
+.img4{
+     
+      height: auto;
+      margin-top: -200px;
+      
+}
+
+.main-nav{
+    float: right;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 17px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    text-shadow: 1px 0 #3C3C3C;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+
+
+#button-id{
+    text-shadow: 1px 0 #F26A6F;
+    letter-spacing:1px;
+    font-weight:bold;
+    
+}
+.main-nav li a {
+    color: #3C3C3C;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.logo{
+
+    height: 30px;
+    margin-top: 40px;
+}
+.left{
+    padding-left: 60px;
+}
+
+.insights{
+    color: #155D71;
+    padding-top: 230px;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    
+}
+
+#insights{
+    text-shadow: 2px 0 #155D71;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+
+#underline{
+    width: 130px;
+    height: 30px;
+    margin-top: -37px;
+    margin-right: 130px;
+    float: right;
+    
+}
+
+.insights1{
+    font-size: 25px;
+    color: #F26A6F;
+    font-family: 'Montserrat';
+}
+
+.twim-intel{
+    width: 100%;
+    height: 500px;
+    background-color: #F4FBFF;
+    
+}
+
+.twimintelimg{
+    padding-left: 60px;
+    margin-top: 60px;
+    height: 400px;
+}
+
+.twim-intel-moto-1{
+    color: #155D71;
+    font-size: 40px;
+    padding-top: 110px;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    text-shadow: 2px 0 #155D71;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+.twim-intel-moto-2{
+    color: #155D71;
+    font-size: 40px;
+    padding-left: 50px;
+    margin-top: -30px;
+    font-family: 'Montserrat';
+    text-shadow: 2px 0 #155D71;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+
+.insights2{
+    font-size: 20px;
+    color: #1D6375;
+    padding-left: 55px;
+    font-family: 'Montserrat';
+}
+
+.checkout{
+
+    padding-left: 55px;
+    font-family: 'Montserrat';
+}
+
+.twimbit-content{
+    
+    height: 400px;
+    width: auto;
+
+}
+
+
+.img5{
+
+background-image: url("bg.png");
+height: 440px;
+width: auto;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+#img-height{
+
+    padding-top: 100px;
+    padding-left: 40px;
+    border-radius: 4%;
+   
+}
+
+#id1{
+    height: 360px;
+    width: 300px;
+    margin-left: 80px;
+
+}
+
+#id2{
+    height: 440px;
+    width: auto;
+    padding-left: 80px;
+   
+}
+
+#caro-id{
+    width: auto;
+    height: auto;
+    padding-top: 80px;
+   
+}
+
+
+#left-control{
+    margin-right: 80px;
+}
+
+#right-control{
+   margin-right: 100px;
+}
+
+.twim-research{
+
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-top: 110px;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    text-shadow: 2px 0#FFFFFF;
+    letter-spacing:1px;
+    font-weight:bold;
+
+}
+
+#underline1{
+    width: 200px;
+    height: 20px;
+    margin-top: -33px;
+    margin-left: 35px;
+    float: left;
+}
+
+.twim-research1{
+
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+   
+   
+}
+
+.circle{
+    width: 140px;
+    height: 90px;
+}
+
+.cost{
+    margin-left: -120px;
+}
+
+.butt{
+    padding-left: 50px;
+}
+
+
+.faq{
+
+    height: 520px;
+    max-height: 1000px;
+    width: auto;
+    padding-top: 170px;
+    padding-right: 60px;
+}
+
+#underline2{
+    width: 200px;
+    height: 20px;
+    margin-top: -33px;
+    margin-left: 155px;
+
+    float: left;
+}
+
+#underline3{
+    width: 200px;
+    height: 20px;
+    margin-top: -33px;
+    margin-left: 245px;
+
+    float: left;
+}
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: 'Montserrat';
+  
+}
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #F26A6F;
+}
+
+.accordion a.active {
+  color: #F26A6F;
+ 
+}
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 0.8rem;
+  color: #7288a2;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #F26A6F;
+  
+}
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+.insights3{
+    font-size: 40px;
+    color: #155D71;
+    padding-left: 140px;
+    padding-top: 50px;
+    font-family: 'Montserrat';
+    text-shadow: 2px 0 #155D71;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+
+.twimbit-pro{
+
+    height: 280px;
+    background-color: #FBFAF8;
+    width: auto;
+}
+
+.insights4{
+    font-size: 35px;
+    color: #155D71;
+    padding-left: 140px;
+    padding-top: 50px;
+    font-family: 'Montserrat';
+    text-shadow: 2px 0 #155D71;
+    letter-spacing:1px;
+    font-weight:bold;
+    
+
+}
+
+.insights5{
+
+    font-size: 15px;
+    color: rgb(104,168,182);
+    padding-left: 140px;
+    font-family: 'Montserrat';
+
+}
+
+.butt1{
+  padding-left: 140px;
+}
+
+
+.contact{
+  height: 300px;
+  width: auto;
+  background-color: #F4F3F0;
+  font-family: 'Montserrat';
+}
+
+.insights6{
+  color: #22687A;
+  font-size: 12px;
+  padding-left: 140px;
+
+}
+
+
+
+.links{
+
+  padding-top: 60px;
+  padding-left: 140px;
+}
+
+.links1{
+padding-top: 60px;
+
+}
+
+.links1 p {
+  color: #155D70;
+  font-weight: bold;
+}
+.links p {
+  color: #155D70;
+  font-weight: bold;
+}
+
+.links2 p {
+  color: #155D70;
+  font-weight: bold;
+}
+.company li {
+  list-style: none;
+}
+
+
+.company li {
+  padding-top: 10px;
+}
+
+.company li a {
+  color: #6EABB9;
+}
+.links2{
+  padding-top: 60px;
+  margin-left: -50px;
+}
+.company-links li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+.company-links li img {
+  height: 30px;
+  width: 25px;
+}
+</style>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="left">
+                <img src = "logo.jpeg"  class="logo"> 
+                <div class = "insights" > 
+                    <p id="insights"><b> Insights that find you! </b></p>
+                    <img src="Asset 1 1.png" id="underline">
+                    <p class="insights1">  To activate your buisness and career  </p>
+                </div>
+
+              </div>
+                
+            </div>
+            <div class="col-md-6">
+                <div class="img3"> 
+                <ul class="main-nav">
+                    <li> <a href="#"> <b> Insights </b>  </a> </li>
+                    <li> <a href="#"> <b> Company </b> </a></li>
+                    <li> <a href="#"> <b> Our Solutions </b> </a> </li>
+                    <li> <a href="#"> <button type="button" class="btn btn-outline-danger" id="button-id"> <b> Twimbit Pro </b> </button> </a> </li>
+                    <li> <a href="#"> <button type="button" class="btn btn-danger " id="button-id"> <b> Sign Up </b> </button> </a> </li>
+                </ul>  
+                </div>
+                <img src="twimbit-01 1.png" class="img4"/>
+                
+            </div>
+        </div>
+        
+   </div>
+
+   <div class="twim-intel">
+       <div class="row">
+           <div class="col-md-6">
+
+               <img src="twimbit ai 2.png" class="twimintelimg">
+
+           </div>
+           <div class="col-md-6">
+               <p class="twim-intel-moto-1"> <b> Enabled by AI , </b> </p>
+               <p class="twim-intel-moto-2"> <b> experts and love </b> </p>
+               <p class="insights2"> <b> Your context, needs and question matter </b> </p>
+               <div class="checkout"> <button type="button" class="btn btn-outline-danger"> <b> Checkout </b> </button> </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="twimbit-content">
+    <div class="img5">
+        <div class="row" id="id2">
+            <div class="col-md-6">
+
+                <p class="twim-research"> <b> Unlimited actionable content </b>  </p> 
+                <img src="Asset 1 1.png" id="underline1">
+                <p class="twim-research1"> Accessible to every fingertip at just  <img src="Layer 2.png" class="circle"> <span class="cost"> <b> 9$/month </b> </span> </p>
+              <span class="butt"><button type="button" class="btn btn-danger" > <b style="font-family: 'Montserrat';"> Get started  <span class="arrow"> > </span> </b></button> </span>
+            </div>
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" id="caro-id">
+                    <div class="carousel-inner" id="id1">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="Telecom-CTO-strategy-01.png" alt="First slide" id="img-height">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="custom – 1.png" alt="Second slide" id="img-height">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="Slide.jpg" alt="Third slide" id="img-height">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" id="left-control">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" id="right-control">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                
+                      
+            </div>
+
+        </div>
+    </div>
+               
+    </div>
+
+    <div class="faq">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="insights3">
+                <p><b> Frequently </b></p>
+                <p><b> Asked Questions </b></p>
+                <img src="Asset 1 1.png" id="underline2">
+              </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="accordion">
+                    <div class="accordion-item">
+                      <a>What is Twimbit?</a>
+                      <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <a>How much Twimbit cost?</a>
+                      <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <a>How do i cancel my membership?</a>
+                      <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <a>How do i cancel my membership?</a>
+                      <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+    </div>
+
+    <div class="twimbit-pro">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="prologo.png" style="padding-left: 120px; padding-top: 50px;"> 
+
+        </div>
+        <div class="col-md-6">
+          <p class="insights4"> <b> Dear Enterprise </b></p>
+          <img src="Asset 1 1.png" id="underline3">
+          <p class="insights5"> IDEATE, CO-CREATE AND SHARE </p>
+          <div class="butt1"> <button type="button" class="btn btn-danger "> <b style="font-family: 'Montserrat'; font-size: 15px;"> Visit Twimbit Pro </b>  </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+       <div class="row">
+         <div class="col-md-3">
+           <img src="twimlogo.png" style="padding-left: 120px; padding-top: 50px;">
+           <p class="insights6"> the world is moved by ideas  </p>
+           <p class="insights6" style="margin-top: -10px;"> and technology!  </p>
+         </div>
+         <div class="col-md-3">
+           <div class="links">
+             <p> <b> Company </b> </p>
+             <ul class="company"> 
+               <li> <a href="#"> About </a>  </li>
+               <li> <a href="#"> Careers </a> </li>
+               <li> <a href="#"> Contact  </a></li>
+             </ul>
+           </div>
+           
+        </div>
+        <div class="col-md-3">
+
+          <div class="links1">
+            <p> <b> Community </b> </p>
+            <ul class="company"> 
+              <li> <a href="#">  Events </a> </li>
+              <li> <a href="#">  Blogs </a> </li>
+              <li> <a href="#">  Insights </a> </li>
+            </ul>
+          </div>
+           
+        </div>
+        <div class="col-md-3">
+          <div class="links2">
+            <p> <b> Stay in touch </b></p>
+            <ul class="company-links">
+               <li> <a href="#"> <img src="Vector-3.png"> </a> </li>
+               <li> <a href="#"> <img src="Vector.png"> </a> </li>
+               <li> <a href="#"> <img src="Vector-1.png"> </a> </li>
+               <li> <a href="#"> <img src="Vector-2.png"> </a> </li>
+            </ul>
+          </div>
+        </div>
+       </div>
+    </div>
+    <script>
+        const items = document.querySelectorAll(".accordion a");
+        function toggleAccordion(){
+              this.classList.toggle('active');
+              this.nextElementSibling.classList.toggle('active');
+        }
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+    </script>
+  
+
+   
+</body>
+
+</html>
